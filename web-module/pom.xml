@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>root_hw19_20</artifactId>
+        <groupId>by.tut.shershnev_s</groupId>
+        <version>1</version>
+    </parent>
+
+    <groupId>by.tut.shershnev_s</groupId>
+    <artifactId>web-module</artifactId>
+    <version>1</version>
+    <name>web-module</name>
+
+    <properties>
+        <service-module.version>1</service-module.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>by.tut.shershnev_s</groupId>
+            <artifactId>service-module</artifactId>
+            <version>${service-module.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

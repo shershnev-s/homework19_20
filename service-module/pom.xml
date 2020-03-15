@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>root_hw19_20</artifactId>
+        <groupId>by.tut.shershnev_s</groupId>
+        <version>1</version>
+    </parent>
+
+    <groupId>by.tut.shershnev_s</groupId>
+    <artifactId>service-module</artifactId>
+    <version>1</version>
+    <name>service-module</name>
+
+    <properties>
+        <repository-module.version>1</repository-module.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>by.tut.shershnev_s</groupId>
+            <artifactId>repository-module</artifactId>
+            <version>1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>by.tut.shershnev_s</groupId>
+            <artifactId>repository-module</artifactId>
+            <version>${repository-module.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+    </dependencies>
+</project>
